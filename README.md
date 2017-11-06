@@ -20,3 +20,10 @@ libraryDependencies += "com.google.firebase" % "firebase-admin" % "5.4.0"
 play.modules.enabled += "modules.firebase.FirebaseModule"
 ```
  
+5. Add these config to conf/application.cnf
+
+```
+firebase {
+  dabase_url = "https://ez-vendor.firebaseio.com/"
+}
+```
